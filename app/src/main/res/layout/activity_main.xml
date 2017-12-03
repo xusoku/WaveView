@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wave="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.davis.rippleanimation.MainActivity">
+
+
+    <com.davis.rippleanimation.WaveView
+        android:id="@+id/waveView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        wave:waveLength="600px"
+        wave:rise="true"
+        wave:boatBitmap="@mipmap/photo"
+        wave:waveHeight="50px"
+        />
+</RelativeLayout>
